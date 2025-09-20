@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:
+## Date:20/09/2025
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,9 +24,96 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+    <head>
+        <title>WEB EX3</title>
+    </head>
+    <body>
+        <img src="logo.png" align="center" width="300" height="70" >
+        <pre>
+            SLOT TIMETABLE JOSHUA DANIEL(25017654)
+        </pre>
+
+        <table border="2">
+
+            <tr bgcolor="yellow">
+                <th>TIME/DAY</th>
+                <th>MONDAY</th>
+                <th>TUESDAY</th>
+                <th>WEDNESDAY</th>
+                <th>THURSDAY</th>
+                <th>FRIDAY</th>
+                <th>SATURDAY</th>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">8AM-10AM</th>
+                <td colspan="2" align="center">FREE SLOT</td>
+                <td>WEB</td>
+                <td colspan="2" align="center">FREE SLOT</td>
+                <td>WEB</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">10AM-12PM</th>
+                <td>PYN</td>
+                <td>C.ENG</td>
+                <td>WEB</td>
+                <td>C.ENG</td>
+                <td colspan="2" align="center">FREE SLOT</td>
+            </tr>    
+            <tr>
+                <th bgcolor="yellow">12PM-1PM</th>
+                <td colspan="6" align="center">LUNCH TIME</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">1PM-3PM</th>
+                <td colspan="2" align="centre">PYN</td>
+                <td>MENTOR_MENTEE</td>
+                <td>PYN</td>
+                <td colspan="2" align="center">WEB</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">3PM-5PM</th>
+                <td colspan="3" align="center">C>ENG</td>
+                <td>PYN</td>
+                <td>FREE SLOT</td>
+                <td>C.ENG</td>
+            </tr>
+            
+        </table>
+        <br>
+        <br>
+        
+        <table border="2">
+            <tr bgcolor="yellow">
+                <th>S.NO</th>
+                <th>SUBJECT CODE</th>
+                <th>SUBJECT NAME</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>19AI414</td>
+                <td>WEB APPLICATIONS</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>19EN101</td>
+                <td>COMMUNICATIVE ENGLISH</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>19AI304</td>
+                <td>PYTHON PROGRAMMING</td>
+            </tr>
+        </table>
+    </body>
+</html>        
+            
+```
 
 
 ## OUTPUT
+![alt text](<Screenshot (54).png>)
 
 
 ## RESULT
